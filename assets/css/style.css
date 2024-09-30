@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    background-color: rgb(104, 109, 112);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.2);
+}
+img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.container{
+    position: relative;
+    height: 550px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.first-container{
+    background-color: white;
+    height: 550px;
+    width: 900px;
+    border-radius: 20px;
+    display: flex;
+    z-index: 10;
+    transition: 0.6s;
+}
+.first-container .left{
+    width: 450px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    transition: 0.6s;
+}
+.first-container .left .icon img{
+    margin: 1rem;
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.first-container .left button{
+    background-color: #50B498;
+    border: none;
+    height: 30px;
+    width: 100px;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+.first-container .sign-in .left p{
+    font-size: large;
+    font-weight: 100;
+}
+.first-container .sign-in .left input{
+    width: 300px;
+    height: 30px;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+.first-container .sign-in .left a{
+    margin: 1rem;
+    text-decoration: none;
+    color: black;
+}
+.first-container .right{
+    width: 450px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to right,#2498c9,#6ba8d0);
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+    position: absolute;
+    left: 50%;
+    transition: 0.6s;
+}
+.first-container .right button{
+    background-color: rgba(0, 0, 0, 0);
+    background-color: transparent;
+    border: 1px solid white;
+    height: 30px;
+    width: 100px;
+    color: whitesmoke;
+    border-radius: 5px;
+    margin: 1rem;
+}
+.first-container .right p{
+    margin: 1rem;
+    text-align: center;
+}
+.first-container .left img{
+    height: 25px;
+}
+.second-container{
+    background-color: white;
+    height: 550px;
+    width: 900px;
+    border-radius: 20px;
+    display: flex;
+    position: absolute;
+    transition: 0.6s;
+}
+.second-container .left{
+    width: 450px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to right,#12639a,#7ab4db);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 30%;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    transition: 0.6s;
+}
+.second-container .left button{
+    background-color: rgba(0, 0, 0, 0);
+    background-color: transparent;
+    border: 1px solid white;
+    height: 30px;
+    width: 100px;
+    color: whitesmoke;
+    border-radius: 5px;
+    margin: 1rem;
+}
+.second-container .left p{
+    margin: 1rem;
+    text-align: center;
+}
+.second-container .right{
+    width: 450px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    bottom: 100%;
+    transition: 0.6s;
+}
+.second-container .right .icon img{
+    margin: 1rem;
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.second-container .right button{
+    background-color: #00712D;
+    border: none;
+    height: 30px;
+    width: 100px;
+    color: whitesmoke;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+.second-container .sign-up .right p{
+    font-size: large;
+    font-weight: 100;
+}
+.second-container .sign-up .right input{
+    width: 300px;
+    height: 30px;
+    margin-top: 15px;
+    padding-left: 10px;
+    color: #134B70;
+}

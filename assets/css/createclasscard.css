@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    background-color: rgb(104, 109, 112);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    cursor: pointer;
+}
+.container{
+    height: 550px;
+    width: 900px;
+    position: relative;
+    background: linear-gradient(to right,#2498c9,#6ba8d0);
+    color: white;
+    border-radius: 15px;
+}
+.container .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container h2{
+    font-size: 65px;
+    justify-content: center;
+}
+.container label{
+    font-size: 22px;
+    color: black;
+    height: 60px;
+    width: 120px;
+}
+.container .semister input{
+    position: absolute;
+    right: 23%;
+    top: 18%;
+}
+.container .section input{
+    position: absolute;
+    right: 23%;
+    top: 32%;
+}
+.container .subject input{
+    position: absolute;
+    right: 23%;
+    top: 46%;
+}
+.container .coursecode input{
+    position: absolute;
+    right: 23%;
+    top: 60%;
+}
+.container .semister label{
+    position: absolute;
+    top: 23%;
+    left: 27%;
+    z-index: 10;
+}
+.container .section label{
+    position: absolute;
+    left: 27%;
+    top: 37%;
+    z-index: 10;
+
+}
+.container .subject label{
+    position: absolute;
+    left: 27%;
+    top: 51%;
+    z-index: 10;
+
+}
+.container .coursecode label{
+    position: absolute;
+    white-space: nowrap;
+    left: 27%;
+    top: 65%;
+    z-index: 10;
+
+}
+.container input{
+    height: 50px;
+    width: 300px;
+    border-radius: 15px;
+    border: none;
+    margin: 15px;
+    outline: none;
+    padding-left: 150px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+.container button{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(79, 107, 249);
+    border-radius: 15px;
+    border: none;
+    font-size: 22px;
+    color: white;
+    position: absolute;
+    bottom: 80px;
+    left: 42%;
+    transition: 0.5s;
+}
+.container button:hover{
+    box-shadow: 10px 10px 10px rgb(68, 65, 65);
+    transform: scale(1);
+}
